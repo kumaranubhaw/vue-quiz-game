@@ -31,7 +31,11 @@
     text-align: center;
     width: 40%;
     margin: auto;
-    margin-bottom: 2rem;
     border-radius: 1rem;
+  }
+  @media screen and (max-width: 768px) {
+    .result {
+      width: 70%;
+    }
   }
 </style>
