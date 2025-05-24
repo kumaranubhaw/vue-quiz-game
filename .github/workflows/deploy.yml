@@ -24,6 +24,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+        with:
+          token: ${{ secrets.PAGES_DEPLOY }}
       - name: Install dependency
         run: rm -rf node_modules && yarn install --frozen-lockfile
       - name: build website
