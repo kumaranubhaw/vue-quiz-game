@@ -129,5 +129,8 @@ body {
   h1 {
     font-size: 16px;
   }
+  h2 {
+    font-size: 20px;
+  }
 }
 </style>
