@@ -53,7 +53,7 @@ export default {
       this.correctAnswer = undefined
       this.incorrectAnswer = undefined
       try {
-      this.axios.get('https://opentdb.com/api.php?amount=1&category=18').then(response => {
+      this.axios.get('https://opentdb.com/api.php?amount=10&category=9').then(response => {
         this.question = response.data.results[0].question;
         this.correctAnswer = response.data.results[0].correct_answer
         this.incorrectAnswer = response.data.results[0].incorrect_answers
